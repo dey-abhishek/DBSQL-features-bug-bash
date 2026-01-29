@@ -1,0 +1,9 @@
+# Core dependencies for SQL SECURITY DEFINER testing
+databricks-sql-connector==3.0.0
+databricks-sdk>=0.20.0  # For OAuth M2M authentication
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Optional: pandas for data manipulation (requires cmake for pyarrow)
+# Uncomment if you have cmake installed: brew install cmake
+# pandas>=2.0.0

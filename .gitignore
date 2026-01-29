@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+.venv/
+security_definer/venv/
+
+# Environment variables (NEVER COMMIT!)
+.env
+.env.local
+.env.*.local
+*.env
+
+# Secrets and credentials (NEVER COMMIT!)
+*_secrets.txt
+*_credentials.txt
+*.key
+*.pem
+*secret*
+*credential*
+*token*
+
+# Databricks specific
+.databricks/
+*.dbc
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Test results
+logs/
+*.log
+test_results.json
+serverless_test_results.json
+*.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Documentation - Only commit README.md
+*.md
+!README.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+
+# Sanitizer script (can be committed, but excluding to be safe)
+# sanitize_credentials.py
