@@ -13,6 +13,7 @@ venv/
 env/
 .venv/
 security_definer/venv/
+security_definer/venv_sp/
 
 # Environment variables (NEVER COMMIT!)
 .env
